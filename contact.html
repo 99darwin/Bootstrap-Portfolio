@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Bootstrap Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION AREA -->
+    <nav class="navbar navbar-toggle navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">Nick Saponaro</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+            </ul>
+        </div>    
+    </nav>
+
+
+    <div class="container">
+    	<div class="row">
+    	<!-- CONTACT FORM -->
+    		<div class="col-md-8">
+    			<div class="card contact">
+    				<div class="card-header">
+    					<h1>Contact Me</h1>
+    				</div>
+    				<div class="card-text">
+	    				<form>
+		    				<div class="form-group">
+		    					<label for="nameInput">Name</label>
+		    					<input type="text" class="form-control" id="nameInput" placeholder="John Doe">
+		    				</div>
+		    				<div class="form-group">
+		    					<label for="emailInput">Email address</label>
+		    					<input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="johndoe@example.com">
+		    				</div>
+		    				<div class="form-group">
+		    					<label for="messageText">Message</label>
+		    					<textarea type="textarea" class="form-control" rows="3" col="10"></textarea>
+		    				</div>
+		    				<button type="submit" class="btn btn-primary">Submit</button>
+	    				</form>
+    				</div>
+    			</div>
+    		</div>
+    		<!-- SIDEBAR -->
+    		<div class="col-md-4 col-xs-12 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Connect with me</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="social-icons">
+                            <a href="https://github.com/99darwin"> <img src="assets/images/github-icon.png" alt="github-icon"></a> <a href="https://stackoverflow.com/users/8432051/99darwin"> <img src="assets/images/stack-overflow-icon.png" alt="stackoverflow"></a> <a href="https://www.linkedin.com/in/nicksaponaro/"> <img src="assets/images/linkedin-icon.png" alt="linkedin"> </a>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+    	</div>
+    </div>
+
+
+
+    <!-- Footer Area -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="copyright">
+                &copy; 2017 Nick Saponaro
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
